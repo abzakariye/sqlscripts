@@ -112,3 +112,4 @@ cross join properties order by propertytypes.TypeID;
 select  agents.AgentID, agents.LastName, clients.ClientID, clients.LastName
 from agents
 cross join clients order by agents.AgentID;
+-- TODO: make some refactoring
